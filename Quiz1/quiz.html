@@ -6,12 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body {background-color:Tomato;}
+    h1   {color: blue;}
+    p    {color: red;}
+    </style>
+    </head>
+    <body>
+    
+    <h1>เว็บสำหรับคนดูดี</h1>
+    <p>หรือคุณจะไม่ดู</p>
 <!-- image -->
-<img src="images/to.jpg" alt="my picture">
-<body>
-    <h2>ยินดีต้อนรับสมาชิกใจเกเร</h2>
-    <label for="user-name">รหัสผู้ใช้</label>
-    <input type="text"> name="user-name" id="user-name"
-    <label for=""></label>
-</body>
+<img src="https://i.ytimg.com/vi/99NUCFaA8YY/hqdefault.jpg" alt="my picture">
+<body> 
+    <h1 style="color:blue;">ยินดีต้อนรับสมาชิกใจเกเร</h1>
+<! -- form -->
+    <h2>เข้าสู่ระบบ</h2>
+    <form method="GET" action="check_login.html" enctype="multipart/form-data">
+        <!--<label for="username">รหัสผู้ใช้งาน</label> -->
+        <input type="text" id="username" placeholder="รหัสผู้ใช้งาน">
+        <br>
+        <label for="passwd">รหัสผ่าน</label>
+        <input type="password" id="passwd">
+        <br>
+        <input type="checkbox">จำรหัสผู้ใช้งาน
+        <br>
+        <input type="radio" name="user_type">นักศึกษา
+        <input type="radio" name="user_type">อาจารย์
+        <br>
+        <!-- <label for="desc">รายละเอียด</label> -->
+        <textarea id="desc" rows="5"></textarea>
+        <br>
+        <input type="file">
+        <br>
+        <select name="type">สถานะ
+            <option value="1">ใช้งาน</option>
+            <option value="0">ยกเลิก</option>
+        </select>
+        <br>
+        <input type="submit" value="เข้าสู่ระบบ">
+        <input type="reset" value="ยกเลิก"
+        
+    </body>
+
 </html>
